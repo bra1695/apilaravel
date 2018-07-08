@@ -8,6 +8,6 @@ $factory->define(App\Product::class, function (Faker $faker) {
         'detail' => $faker->paragraph,
         'price' => $faker->numberBetween(100,1000),
         'stock' => $faker->randomDigit,
-        'discount' => $faker->numberBetween(100,1000),
+        'discount' => $faker->numberBetween(20,70),
     ];
 });
