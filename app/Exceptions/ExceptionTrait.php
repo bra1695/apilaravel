@@ -25,7 +25,7 @@ trait ExceptionTrait{
        
         }
        
-         
+         return parent::render($request, $e);
 	
         }
          public function isModel($e){
